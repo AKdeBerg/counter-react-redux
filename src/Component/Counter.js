@@ -8,9 +8,9 @@ const Counter = () => {
             {/*Here lies the actual counter, we fetch it from state*/}
             <h3></h3> 
             {/*we fire an action cretor upon onClick*/}
-            <button onClick={}>Increase</button>
-            <button onClick={}>Decrease</button>
-            <button onClick={}>Reset</button>
+            <button onClick={() => {}}>Increase</button>
+            <button onClick={() => {}}>Decrease</button>
+            <button onClick={() => {}}>Reset</button>
         </div>
 
     );
