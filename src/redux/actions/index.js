@@ -1,5 +1,7 @@
 import {INCREMENT, DECREMENT, RESET} from './actionTypes'
 
+//HERE WRITE ALL OF OUR ACTION CREATORS
+
 export function increaseCount() {
     return {
         type: INCREMENT
