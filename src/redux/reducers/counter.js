@@ -11,7 +11,7 @@ const INITIAL_STATE = {
 
 //step 02: update the initial state upon action type
 const counter = (state = INITIAL_STATE, action) => {
-    const [count, history] = state;
+    const {count, history} = state;
 
     switch(action.type) {
         case INCREMENT:
